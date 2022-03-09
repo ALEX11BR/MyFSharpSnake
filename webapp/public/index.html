@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="bundle.js" defer></script>
+    <title>MyFSharpSnake</title>
+</head>
+<body>
+    <h1>MyFSharpSnake - web edition</h1>
+    <div class="flex">
+        <div>
+            <canvas id="canvas" width="224" height="224"></canvas>
+            <div class="buttonflex">
+                <button id="upButton">↑</button>
+            </div>
+            <div class="buttonflex">
+                <button id="leftButton">←</button>
+                <button id="downButton">↓</button>
+                <button id="rightButton">→</button>
+            </div>
+        </div>
+        <div>
+            <h2>Start new game</h2>
+            <label>Grid width: </label>
+            <input id="gridWidth" type="number" min="3" value="7"/>
+            <label>Grid height: </label>
+            <input id="gridHeight" type="number" min="3" value="7"/>
+            <br/>
+            <button id="startButton">Start new game</button>
+        </div>
+    </div>
+    <h2>About</h2>
+    <p>Use the arrow keys or the above buttons to set the snake's direction. Don't switch the directions too quickly, this might kill your snake! Also, if your snake grows big enough, the level gets bigger. See if you can make that far.</p>
+    <p>MyFSharpSnake is my attempt to exercise some cool, fancy Functional Programming, using F#. Initially a terminal program, I made with (some sort of) ease a webapp using the already-made game logic. Honestly, that was an interesting exercise.</p>
+    <p>You can check out its source code at <a href="https://github.com/ALEX11BR/MyFSharpSnake">https://github.com/ALEX11BR/MyFSharpSnake</a>. The app is available under the Unlicense, so basically public domain.</p>
+</body>
+</html>

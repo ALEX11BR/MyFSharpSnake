@@ -256,3 +256,11 @@ paket-files/
 
 # Coverage Report
 MyProject_coverage.xml
+
+## node_modules
+node_modules
+# Fable generated files
+.fable
+*.fs.js
+bundle.js
+temp/**

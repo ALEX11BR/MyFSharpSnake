@@ -1,7 +1,7 @@
 # My F# Snake
 ![A little gameplay gif](game.gif)
 
-Yet another snake game witten in F#. This one runs in the terminal.
+Yet another snake game witten in F#. This one has 2 versions: one that runs in the terminal, and a webapp.
 
 If your snake grows big enough (half of the available board space), the board will grow by one block in width and length. The starting board is of size 7x7 and the snake has a length of 3. Can you reach the point in which the board starts growing?
 
