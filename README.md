@@ -1,4 +1,6 @@
 # My F# Snake
+[Web version demo](https://alex11br.github.io/myfsharpsnake-web)
+
 ![A little gameplay gif](game.gif)
 
 Yet another snake game witten in F#. This one has 2 versions: one that runs in the terminal, and a webapp.
